@@ -2,7 +2,7 @@
 # * apt-get cacher
 
 # https://github.com/phusion/baseimage-docker
-FROM phusion/baseimage:0.9.9
+FROM phusion/baseimage:0.9.16
 
 # Format: MAINTAINER Name <email@addr.ess>
 MAINTAINER Jujubre <jujubre+docker@gmail.com>
