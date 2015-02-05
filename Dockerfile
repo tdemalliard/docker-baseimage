@@ -1,11 +1,10 @@
-# baseimage based onf phusion
+# baseimage based on phusion/baseimage with
 # * apt-get cacher
+# * local time set
 
 # https://github.com/phusion/baseimage-docker
 FROM phusion/baseimage:0.9.16
-
-# Format: MAINTAINER Name <email@addr.ess>
-MAINTAINER Jujubre <jujubre+docker@gmail.com>
+MAINTAINER Thibault de Malliard <tdemalliard+docker@gmail.com>
 
 # Set correct time.
 ENV TZ America/Montreal
