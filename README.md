@@ -15,7 +15,7 @@
 * time set to local: env TZ America/Montreal
 
 ## Build
-```
+```bash
 docker build --tag [username]/baseimage:latest .
 docker tag [username]/baseimage:latest [username]/baseimage:0.9.16
 ```
@@ -23,6 +23,6 @@ Version tag follow phusion/baseimage tag. Version 0.9.16 is the current latest v
 
 ## Use
 Include the image in your next Dockerfile:
-```
+```bash
 FROM [username]/baseimage
 ```
