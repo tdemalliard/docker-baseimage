@@ -13,5 +13,5 @@ The 3142 port is bind to your docker interface, internal to your server. Now, al
 ## Use
 Add the proxy in the dockerfile. Write this line before any apt-* instruction:
 ```
-RUN echo 'Acquire::http { Proxy "http://172.17.42.1:3142"; };' >> /etc/apt/apt.conf.d/01proxy
+RUN echo 'Acquire::http { Proxy "http://172.17.0.1:3142"; };' >> /etc/apt/apt.conf.d/01proxy
 ```
